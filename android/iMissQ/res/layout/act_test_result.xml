@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/result_bg"
+    >
+
+    <RelativeLayout style="@style/parent_two" 
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/ivTest"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/test_bg" 
+            />
+		<TextView
+		    android:id="@+id/tv_complete"
+		    style="@style/parent_four"
+		    android:layout_centerInParent="true"
+		    android:textSize="20sp"
+		    android:textStyle="bold"
+		    android:textColor="@color/black_3"
+		    android:text="扫描完成"
+		    />        
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        style="@style/parent_two"
+        android:orientation="vertical"
+        android:background="@drawable/u_test_bg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        >
+        <TextView 
+            android:id="@+id/tvOil"
+            style="@style/parent_four"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/black_3"
+            android:text="肌肤油值：55"
+            android:gravity="center"
+            />
+        <TextView 
+            android:id="@+id/tvWater"
+            style="@style/parent_four"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/black_3"
+            android:text="肌肤含水量：22"
+            android:gravity="center"
+            />
+        <TextView 
+            android:id="@+id/tvTotal"
+            style="@style/parent_four"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/black_3"
+            android:background="@drawable/circle_bg"
+            android:text="47"
+            android:padding="10dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

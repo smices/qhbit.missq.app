@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/parent_four"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:hint="手机号"
+            android:textColor="@color/black_3"
+            android:textColorHint="@color/black_c"
+            android:textSize="@dimen/text_common_size" 
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:hint="密码"
+            android:password="true"
+            android:textColor="@color/black_3"
+            android:textColorHint="@color/black_c"
+            android:textSize="@dimen/text_common_size"
+            tools:ignore="Deprecated" 
+            android:padding="10dp"/>
+        
+        <Button 
+            android:id="@+id/btn_enter"
+            style="@style/parent_four"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_enter"
+            />
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/btn_register"
+        style="@style/parent_four"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:background="@null"
+        android:padding="10dp"
+        android:text="手机注册"
+		android:textSize="@dimen/text_common_size"
+        />
+
+</RelativeLayout>

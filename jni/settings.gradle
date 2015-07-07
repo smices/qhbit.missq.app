@@ -1,0 +1,4 @@
+include ':app',
+        ':vendor:LogUtil',
+        ':vendor:decRawso',
+        ':vendor:android-auto-update'

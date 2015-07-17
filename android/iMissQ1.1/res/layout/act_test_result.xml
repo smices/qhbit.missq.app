@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        style="@style/parent_one"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            style="@style/parent_two"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                style="@style/parent_two"
+                android:layout_marginTop="20dp" >
+
+                <ImageView
+                    android:id="@+id/ivTest"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/test_bg" />
+
+                <TextView
+                    android:id="@+id/tv_complete"
+                    style="@style/parent_four"
+                    android:layout_centerInParent="true"
+                    android:text="扫描完成"
+                    android:textColor="@color/black_3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                style="@style/parent_two"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/u_test_bg"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/tvOil"
+                    style="@style/parent_four"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="肌肤油值：55"
+                    android:textColor="@color/black_3"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvWater"
+                    style="@style/parent_four"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="肌肤含水量：22"
+                    android:textColor="@color/black_3"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvTotal"
+                    style="@style/parent_four"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/circle_bg"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="47"
+                    android:textColor="@color/black_3"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_warning_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="您的肌肤T部位严重缺水,我们建议您立即对她进入补水操作."
+                android:textSize="@dimen/text_common_size" 
+                android:textColor="@color/white"
+                />
+            
+            <LinearLayout 
+                style="@style/parent_two"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                >
+                <Button 
+                    android:id="@+id/btn_again"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_common_size"
+                    android:text="继续检测"
+                    android:textColor="@color/black"
+                    />
+                <Button 
+                    android:id="@+id/btn_history"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_common_size"
+                    android:text="查看记录"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

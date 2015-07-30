@@ -2,6 +2,8 @@ package com.imissq.controller;
 
 import java.util.HashMap;
 
+import com.imissq.views.TagView;
+
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -25,7 +27,7 @@ public class RadioTabManager implements OnCheckedChangeListener {
     private final BuildViewFactory mTabViewFactory;
     private final boolean isShowHide;
 
-    public View addTab(String tag, Class<?> clss, Bundle args) {
+    public View addTab(final String tag, Class<?> clss, Bundle args) {
         // 构建tab
         View radioButton = mTabViewFactory.tabView(tag, mRadioGroup);
         radioButton.setTag(tag);
@@ -35,18 +37,24 @@ public class RadioTabManager implements OnCheckedChangeListener {
         params.weight = 1.0f;
         params.gravity = Gravity.CENTER;
         mRadioGroup.addView(radioButton, params);
+        radioButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				setCurrFragmentByTag(tag);
+			}
+		});
+        
         TabInfo info = new TabInfo(tag, clss, args);
-
         info.fragment = mFragmentManager.findFragmentByTag(tag);
         if (isShowHide) {
-            // 恢复状�?�?，默认为影藏
             if (info.fragment != null) {
                 FragmentTransaction ft = mFragmentManager.beginTransaction();
                 ft.hide(info.fragment);
                 ft.commitAllowingStateLoss();
             }
         } else {
-            // 恢复状�?�?，默认为detach
             if (info.fragment != null && !info.fragment.isDetached()) {
                 FragmentTransaction ft = mFragmentManager.beginTransaction();
                 ft.detach(info.fragment);
@@ -87,10 +95,18 @@ public class RadioTabManager implements OnCheckedChangeListener {
     }
 
     public void setCurrFragmentByTag(String tag) {
-        RadioButton radioButton = (RadioButton) mRadioGroup.findViewWithTag(tag);
-        if (radioButton != null) {
-            radioButton.setChecked(true);
+        //TagView radioButton = (TagView) mRadioGroup.findViewWithTag(tag);
+        int count = mRadioGroup.getChildCount();
+        for(int i=0; i< count; i++){
+        	TagView radioButton = (TagView) mRadioGroup.getChildAt(i);
+        	if(tag.equals(radioButton.getTag())){
+        		radioButton.setSelected(true);
+        	}else{
+        		radioButton.setSelected(false);
+        	}
+        	showHideFragment(tag);
         }
+        
     }
 
     public Fragment getCurrFragment() {

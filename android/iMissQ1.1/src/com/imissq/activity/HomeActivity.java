@@ -22,6 +22,7 @@ import com.imissq.controller.RadioTabManager.BuildViewFactory;
 import com.imissq.controller.RadioTabManager.TabChangeListener;
 import com.imissq.controller.RadioTabManager.TabInfo;
 import com.imissq.utils.MaterialUtils;
+import com.imissq.views.TagView;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
@@ -66,19 +67,23 @@ public class HomeActivity extends BaseActivity implements TabChangeListener, Bui
 
 	@Override
 	public View tabView(String tag, ViewGroup parent) {
-		RadioButton tab = (RadioButton) LayoutInflater.from(this).inflate(R.layout.tab_text, null);
-		tab.setTextColor(MaterialUtils.createTabItemTextColor(Color.BLACK, Color.WHITE));
+		TagView tagVew = new TagView(this);
+		
 		if (tag.equals(TestFragment.class.getName())) {
-			tab.setText("测试");
+			tagVew.setText("测试");
+			tagVew.setIconBg(R.drawable.tag_test_selector);
 		}else if(tag.equals(TopicFragment.class.getName())) {
-			tab.setText("话题");
+			tagVew.setText("话题");
+			tagVew.setIconBg(R.drawable.tag_topic_selector);
 		}else if(tag.equals(ProductFragment.class.getName())) {
-			tab.setText("产品");
+			tagVew.setText("产品");
+			tagVew.setIconBg(R.drawable.tag_product_selector);
 		}else if(tag.equals(MeFragment.class.getName())) {
-			tab.setText("我");
+			tagVew.setText("我");
+			tagVew.setIconBg(R.drawable.tag_me_selector);
 		}
 		
-		return tab;
+		return tagVew;
 	}
 
 }

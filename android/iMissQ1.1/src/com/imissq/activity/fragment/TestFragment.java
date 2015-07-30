@@ -1,20 +1,27 @@
 package com.imissq.activity.fragment;
 
+import java.util.List;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import com.google.gson.Gson;
 import com.imissq.R;
 import com.imissq.activity.BaseActivity;
+import com.imissq.activity.HelpActivity;
+import com.imissq.activity.NewTestActivity;
 import com.imissq.activity.TestActivity;
 import com.imissq.base.AppMaterial;
 import com.imissq.base.BaseApplication;
 import com.imissq.config.Commons;
 import com.imissq.config.Constants;
 import com.imissq.http.Urls;
+import com.imissq.model.UserTestBean;
 import com.imissq.model.WeatherBean;
+import com.imissq.model.WeatherBean.Index;
 import com.imissq.model.WeatherBean.WeatherData;
 import com.imissq.utils.MaterialUtils;
+import com.imissq.utils.TestResult;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
@@ -76,7 +83,32 @@ public class TestFragment extends BaseFragment implements View.OnClickListener{
 	TextView tvHPart;
 	@ViewInject(R.id.tvFPartTest)
 	TextView tvFPart;
-
+	
+	@ViewInject(R.id.tvTPartInfo)
+	TextView tvTPartInfo;
+	@ViewInject(R.id.tvUPartInfo)
+	TextView tvUPartInfo;
+	@ViewInject(R.id.tvHPartInfo)
+	TextView tvHPartInfo;
+	@ViewInject(R.id.tvFPartInfo)
+	TextView tvFPartInfo;
+	
+	@ViewInject(R.id.tvTPartDes)
+	TextView tvTPartDes;
+	@ViewInject(R.id.tvUPartDes)
+	TextView tvUPartDes;
+	@ViewInject(R.id.tvHPartDes)
+	TextView tvHPartDes;
+	@ViewInject(R.id.tvFPartDes)
+	TextView tvFPartDes;
+	
+	@ViewInject(R.id.tvTodayDes)
+	TextView tvTodayDes;
+	@ViewInject(R.id.tvTodayInfo)
+	TextView tvTodayInfo;
+	@ViewInject(R.id.ivHelp)
+	ImageView ivHelp;
+	
 	private WeatherBean weatherBean;
 
 	@Override
@@ -125,6 +157,7 @@ public class TestFragment extends BaseFragment implements View.OnClickListener{
 		tvHPart.setOnClickListener(this);
 		tvFPart.setOnClickListener(this);
 		ivTest.setOnClickListener(this);
+		ivHelp.setOnClickListener(this);
 	}
 	
 	@Override
@@ -161,7 +194,37 @@ public class TestFragment extends BaseFragment implements View.OnClickListener{
 					}
 
 				});
-		getUserHistoryData();
+		//getUserHistoryData();
+		setPartData();
+		setTodayData();
+	}
+	
+	private void setTodayData(){
+		UserTestBean testData = Commons.getTodayData();
+		if(testData != null){
+			TestResult.setTvTodayData(tvTodayDes, (int) testData.getWater());
+		}
+	}
+	
+	private void setPartData(){
+		List<UserTestBean> list = Commons.getThreeDaysData(BaseApplication.getInstance().getDb());
+		if(list != null){
+			int size = list.size();
+			if(size == 0){
+				return;
+			}else if (size > 0){
+				TestResult.setTvTestData(tvTPartDes,tvTPart,tvTPartInfo, (int) list.get(0).getWater());
+				if( size > 1){
+					TestResult.setTvTestData(tvUPartDes,tvUPart,tvUPartInfo, (int) list.get(1).getWater());
+					if(size > 2){
+						TestResult.setTvTestData(tvHPartDes,tvHPart,tvHPartInfo, (int) list.get(2).getWater());
+						if(size > 3){
+							TestResult.setTvTestData(tvFPartDes,tvFPart,tvFPartInfo, (int) list.get(3).getWater());
+						}
+					}
+				}
+			}
+		}
 	}
 	
 	private void getUserHistoryData(){
@@ -237,9 +300,16 @@ public class TestFragment extends BaseFragment implements View.OnClickListener{
 			tvWind.setText(wind);
 			String url = timeData.getDayPictureUrl();
 			act.getBitmapUtil().display(ivWeatherBg, url);
+			
 		} else {
 			Log.d(Constants.TAG, "data error, wawther data is null");
 
+		}
+		
+		List<Index> indexList = weatherBean.getIndex();
+		if(indexList != null && indexList.size() > 0){
+			Index index = indexList.get(0);
+			tvTodayInfo.setText(index.getDes());
 		}
 
 	}
@@ -247,14 +317,18 @@ public class TestFragment extends BaseFragment implements View.OnClickListener{
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		Intent intent = new Intent(act,TestActivity.class);
-		startActivity(intent);
+		if(v == ivHelp){
+			startActivity(new Intent(act,HelpActivity.class));
+			return;
+		}
+		Intent intent = new Intent(act,NewTestActivity.class);
+		
 		switch(v.getId()){
 		case R.id.tvTPartTest:
-			
+			intent.putExtra(NewTestActivity.INDEX_FLAG, 0);
 			break;
 		case R.id.tvUPartTest:
-			
+			intent.putExtra(NewTestActivity.INDEX_FLAG, 1);
 			break;
 		case R.id.tvHPartTest:
 			
@@ -263,6 +337,7 @@ public class TestFragment extends BaseFragment implements View.OnClickListener{
 			
 			break;
 		}
+		startActivity(intent);
 	}
 
 }

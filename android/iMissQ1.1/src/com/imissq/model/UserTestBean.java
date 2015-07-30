@@ -2,7 +2,9 @@ package com.imissq.model;
 
 import java.io.Serializable;
 
-public class UserTestBean implements Serializable{
+public class UserTestBean extends BaseBean{
+	
+	
 	
 	private int oil;
 	private int age;

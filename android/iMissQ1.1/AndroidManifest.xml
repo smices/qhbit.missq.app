@@ -11,7 +11,7 @@
     <application
         android:name="com.imissq.base.BaseApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/mssq_logo"
         android:label="@string/app_name"
         android:theme="@style/AppBaseTheme" >
         <activity
@@ -26,9 +26,12 @@
         
         <activity android:name="com.imissq.activity.LoginActivity"></activity>
         <activity android:name="com.imissq.activity.HomeActivity"></activity>
-        <activity android:name="com.imissq.activity.TestActivity"></activity>
+        <activity android:name="com.imissq.activity.NewTestActivity"></activity>
         <activity android:name="com.imissq.activity.TestResultActivity"></activity>
         <activity android:name="com.imissq.activity.RecordActivity"></activity>
+        <activity android:name="com.imissq.activity.FirstPageActivity"></activity>
+        <activity android:name="com.imissq.activity.HelpActivity"></activity>
+        
         
         <service android:name="com.imissq.base.MyService"></service>
     </application>

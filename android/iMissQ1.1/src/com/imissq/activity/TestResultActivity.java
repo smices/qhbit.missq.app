@@ -1,5 +1,6 @@
 package com.imissq.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -61,7 +62,8 @@ public class TestResultActivity extends BaseActivity implements OnClickListener{
 			finish();
 			return;
 		case R.id.btn_history:
-			
+			Intent intent = new Intent(TestResultActivity.this,RecordActivity.class);
+			startActivity(intent);
 			break;
 		}
 	}

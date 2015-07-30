@@ -13,6 +13,7 @@ import com.google.gson.Gson;
 import com.imissq.activity.BaseActivity;
 import com.imissq.activity.HomeActivity;
 import com.imissq.activity.LoginActivity;
+import com.imissq.activity.SplashActivity;
 import com.imissq.base.BaseApplication;
 import com.imissq.base.LoginCallBack;
 import com.imissq.http.PostMap;
@@ -35,6 +36,8 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
@@ -211,6 +214,36 @@ public class Commons {
 		return true;
 	}
 	
+	public static UserTestBean getUserTestData(int[] b,float water){
+		UserTestBean testBean = new UserTestBean();
+		testBean.setAge(b[0]);
+		testBean.setOil(b[1]);
+		testBean.setSkin_level(b[2]);
+		testBean.setWater(water);
+		testBean.setTime(System.currentTimeMillis());
+		return testBean;
+	}
+	
+	public static UserTestBean getTodayData(){
+		DbUtils db = BaseApplication.getInstance().getDb();
+		List<UserTestBean> list = new ArrayList<UserTestBean>();
+		if(db != null){
+			long time = System.currentTimeMillis();
+			time = time-1000*60*60*24;
+			
+			try {
+				list = db.findAll(Selector.from(UserTestBean.class).where("time",">",time));
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			
+		}
+		if(list != null && list.size() > 0){
+			return list.get(0);
+		}
+		return null;
+	}
+	
 	public static boolean saveTestData(DbUtils db,UserTestBean testBean){
 		try {
 			db.save(testBean);
@@ -232,4 +265,42 @@ public class Commons {
 		}
 		return list;
 	} 
+	
+	public static ColorStateList getCommonColorStateList(){
+		int[] states = {0,1,2};
+		int white = Color.parseColor("#ffffff");
+		int black = Color.parseColor("#333333");
+		int[] colors = {black,white,white};
+		return createColorStateList(states,colors);
+	}
+	
+	public static ColorStateList createColorStateList(int[] states, int[] colors) {
+        int[] tempColors = colors;
+        int[][] tempStates = new int[colors.length][];
+
+        for (int i = 0; i < tempColors.length; i++) {
+            if (states[i] == -1) {
+                tempStates[i] = new int[] { android.R.attr.state_enabled };
+            } else {
+                tempStates[i] = new int[] { android.R.attr.state_enabled, states[i] };
+            }
+        }
+        ColorStateList colorList = new ColorStateList(tempStates, tempColors);
+        return colorList;
+    }
+	
+	public static void startHomeAct(Activity act){
+		LoginInfo info = Commons.getAccountInfo(act);
+		BaseApplication.setLoginInfo(info);
+		if(info == null){
+			act.startActivity(new Intent(act, LoginActivity.class));
+		}else{
+			if(Commons.isLoginTimeOut(info.getTime())){
+				act.startActivity(new Intent(act, LoginActivity.class));
+			}else{
+				act.startActivity(new Intent(act,HomeActivity.class));
+			}
+		}
+		act.finish();
+	}
 }

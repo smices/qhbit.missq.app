@@ -15,6 +15,8 @@ public class CommonSettings extends AppSettings{
     public StringPreference LOGIN_ENCRYPT_PASSWORD = new StringPreference("account_encrypt_pswd", "");
     public StringPreference LOGIN_TOKEN = new StringPreference("account_token", "");
     public LongPreference LOGIN_TIME = new LongPreference("login_time",0);
+    
+    public BooleanPreference FIRST_START = new BooleanPreference("start_first", true);
 	
 	public CommonSettings(Context context){
 		globalePrefs = context.getSharedPreferences(AppSettings.SHARED_PREFERENCES_NAME, Context.MODE_WORLD_READABLE);

@@ -13,6 +13,8 @@ public abstract class AppSettings {
     //user info
     public StringPreference USER_TOKEN = new StringPreference("user_token", "");
     public StringPreference USER_ID = new StringPreference("user_id", "");
+    
+    public LongPreference TEST_TIME = new LongPreference("test_time", 0);
 
 
     protected abstract SharedPreferences getGlobalPreferences();

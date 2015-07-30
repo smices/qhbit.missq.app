@@ -45,10 +45,11 @@
 
                     <ImageView
                         android:id="@+id/ivHelp"
-                        style="@style/parent_four"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_alignParentRight="true"
                         android:layout_alignParentTop="true"
-                        android:background="@drawable/icon_help" />
+                        android:background="@drawable/help_selector" />
 
                     <RelativeLayout
                         style="@style/parent_four"
@@ -67,7 +68,9 @@
                             android:layout_centerInParent="true"
                             android:text="开始测试"
                             android:textColor="@color/white"
-                            android:textSize="@dimen/text_common_size" />
+                            android:textSize="@dimen/text_common_size" 
+                            android:visibility="gone"
+                            />
                     </RelativeLayout>
 
                     <TextView
@@ -107,7 +110,7 @@
                 <!-- 今日测试 -->
 
                 <TextView
-                    android:id="@+id/tvTodayDes"
+                    android:id="@+id/tvTodayDesDes"
                     style="@style/parent_four"
                     android:layout_marginLeft="10dp"
                     android:text="今日检测报告"
@@ -268,7 +271,7 @@
                             android:layout_centerVertical="true"
                             android:textColor="@color/red"
                             android:textSize="@dimen/text_content_size" 
-                            android:text="U部"
+                            android:text="H部"
                             />
 
                         <TextView
@@ -321,7 +324,7 @@
                             android:layout_centerVertical="true"
                             android:textColor="@color/red"
                             android:textSize="@dimen/text_content_size" 
-                            android:text="U部"
+                            android:text="F部"
                             />
 
                         <TextView

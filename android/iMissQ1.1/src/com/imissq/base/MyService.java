@@ -10,9 +10,12 @@ import android.util.Log;
 
 import com.ambytw.android.missq.lib.IMissQLib;
 import com.ambytw.android.missq.lib.MissQLib;
+import com.imissq.config.Commons;
 import com.imissq.config.Constants;
 import com.imissq.http.PostMap;
 import com.imissq.http.Urls;
+import com.imissq.model.UserTestBean;
+import com.lidroid.xutils.DbUtils;
 import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
@@ -34,6 +37,8 @@ IMissQLib.IMissQLibListener {
 	
 	public int connectCount = 0;
 	
+	private static DbUtils db;
+	
 	@SuppressLint("HandlerLeak")
 	private final Handler statushandler = new Handler() {
 		public void handleMessage(Message msg) {
@@ -47,7 +52,7 @@ IMissQLib.IMissQLibListener {
 				//Log.d(Constants.TAG,"connect success, b0:"+b[0]+",b1:"+b[1]+",b2:"+b[2]);
 				if(missqCallback != null){
 					missqCallback.waterCallBack(b,water);
-					uploadTestData(b,water);
+					//uploadTestData(b,water);
 					missqCallback.connectSuccess();
 				}
 			} else if ((msg.arg1 == IMissQLib.IMissQLibListener.UPDATE_FAILED)
@@ -77,7 +82,7 @@ IMissQLib.IMissQLibListener {
 		mQLib = new MissQLib(this);
 		setMisqValue(new float[] {1.0f});
         mListener = this;
-        //uploadTestData();
+        db = BaseApplication.getInstance().getDb();
 	}
 	
 	@Override
@@ -95,7 +100,7 @@ IMissQLib.IMissQLibListener {
 		statushandler.sendMessage(msg);
 	}
 	
-	private void connectClient(){
+	public static void connectClient(){
 		if (mMeasurable) {		
 			mMeasurable = false;
 			boolean isStop = mQLib.stop();
@@ -122,6 +127,9 @@ IMissQLib.IMissQLibListener {
 	}
 	
 	public static void uploadTestData(int b[],float water){
+		//插入本次测试时间
+		BaseApplication.getInstance().getSettings().TEST_TIME.setValue(System.currentTimeMillis());
+		
 		HttpUtils http = new HttpUtils();
 		PostMap map = new PostMap();
 		map.put("uid", "111");
@@ -156,5 +164,10 @@ IMissQLib.IMissQLibListener {
 					}
 
 				});
+		if(db != null){
+			Commons.saveTestData(db, Commons.getUserTestData(b, water));
+		}
+		
 	}
+
 }

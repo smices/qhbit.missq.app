@@ -1,5 +1,7 @@
 package com.imissq.activity.fragment;
 
+import org.json.JSONObject;
+
 import com.google.gson.Gson;
 import com.imissq.R;
 import com.imissq.activity.BaseActivity;
@@ -153,6 +155,10 @@ public class MeFragment extends BaseFragment implements View.OnClickListener {
 					public void onSuccess(ResponseInfo<String> arg0) {
 						// TODO Auto-generated method stub
 						String result = arg0.result;
+						if(!isMsgJson(result)){
+							Commons.showToast(act, "暂无新版本");
+							return;
+						}
 						Gson gson = new Gson();
 						UpdateBean updateInfo = new UpdateBean();
 						updateInfo = gson.fromJson(result, UpdateBean.class);
@@ -160,6 +166,19 @@ public class MeFragment extends BaseFragment implements View.OnClickListener {
 					}
 
 				});
+	}
+	
+	private boolean isMsgJson(String str){
+		try {
+			JSONObject json = new JSONObject(str);
+			JSONObject msg = json.getJSONObject("msg");
+			if(msg != null){
+				return true;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return false;
 	}
 	
 	private void dealUpdateResult(final UpdateBean updateInfo){

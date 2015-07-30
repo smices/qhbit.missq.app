@@ -10,6 +10,7 @@ import com.imissq.http.PostMap;
 import com.imissq.http.Urls;
 import com.imissq.model.LoginBean;
 import com.imissq.model.LoginInfo;
+import com.imissq.model.UserTestBean;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
@@ -96,6 +97,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 			@Override
 			public void loginSuccess(String result) {
 				// TODO Auto-generated method stub
+				setTestData();
 				boolean saveSuccess = Commons.saveUserInfo(name, pwd, result,LoginActivity.this);
 				if(saveSuccess){
 					startActivity(new Intent(LoginActivity.this,HomeActivity.class));
@@ -111,6 +113,22 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 				Commons.showToast(LoginActivity.this, "登录失败");
 			}
 		});
+	}
+	
+	private void setTestData(){
+		if(Commons.getAccountInfo(LoginActivity.this) != null){
+			return;
+		}
+		int water = 85;
+		long time = System.currentTimeMillis();
+		for(int i = 1; i < 5; i++){
+			UserTestBean testData = new UserTestBean();
+			testData.setWater(water);
+			testData.setTime(time);
+			water = water-10;
+			time = time-1000*60*60*8;
+			Commons.saveTestData(BaseApplication.getInstance().getDb(), testData);
+		}
 	}
 
 	private void register() {

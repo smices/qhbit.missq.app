@@ -33,27 +33,14 @@ public class SplashActivity extends BaseActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(arg0);
 
-		ImageView iv = new ImageView(this);
-		iv.setScaleType(ScaleType.FIT_XY);
-		iv.setImageResource(R.drawable.splash);
-		setContentView(iv);
+		setContentView(R.layout.act_splash);
 		if (!Commons.IsNetwork(this)) {
 			Commons.showToast(this, "没有网络");
 			finish();
 			return;
 		}
 		getVersionUpdate();
-		new Thread() {
-			public void run() {
-				try {
-					Thread.sleep(2000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				handler.sendEmptyMessage(1);
-			}
-		}.start();
+		
 		
 		int _dpi = getResources().getDisplayMetrics().densityDpi;
 		_S.setWidth(getWindowManager().getDefaultDisplay().getWidth());
@@ -68,27 +55,19 @@ public class SplashActivity extends BaseActivity {
 
 	Handler handler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
-			if (isStart) {
-				return;
-			}
-			//start();
+			
+			start();
 		};
 	};
 	
 	private void start(){
-		//startActivity(new Intent(SplashActivity.this, LoginActivity.class));
-		LoginInfo info = Commons.getAccountInfo(this);
-		BaseApplication.setLoginInfo(info);
-		if(info == null){
-			startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+		boolean isFirst = BaseApplication.getInstance().getSettings().FIRST_START.getValue();
+		if(isFirst){
+			startActivity(new Intent(SplashActivity.this,FirstPageActivity.class));
+			finish();
 		}else{
-			if(Commons.isLoginTimeOut(info.getTime())){
-				startActivity(new Intent(SplashActivity.this, LoginActivity.class));
-			}else{
-				startActivity(new Intent(SplashActivity.this,HomeActivity.class));
-			}
+			Commons.startHomeAct(SplashActivity.this);
 		}
-		finish();
 	}
 	
 	private void getVersionUpdate() {
@@ -102,7 +81,7 @@ public class SplashActivity extends BaseActivity {
 					@Override
 					public void onFailure(HttpException arg0, String arg1) {
 						// TODO Auto-generated method stub
-						start();
+						toStart();
 					}
 
 					@Override
@@ -110,7 +89,7 @@ public class SplashActivity extends BaseActivity {
 						// TODO Auto-generated method stub
 						String result = arg0.result;
 						Log.d(Constants.TAG,"update result:"+result);
-						start();
+						toStart();
 //						Gson gson = new Gson();
 //						UpdateBean updateInfo = new UpdateBean();
 //						updateInfo = gson.fromJson(result, UpdateBean.class);
@@ -122,7 +101,7 @@ public class SplashActivity extends BaseActivity {
 	
 	private void dealUpdateResult(final UpdateBean updateInfo){
 		if(updateInfo == null || updateInfo.getMsg() == null){
-			start();
+			toStart();
 			return;
 		}
 		if(version < updateInfo.getMsg().getLastVersionCode()){
@@ -136,21 +115,35 @@ public class SplashActivity extends BaseActivity {
 //					intent.setAction("android.intent.action.VIEW");    
 //			        Uri content_url = Uri.parse(updateInfo.getMsg().getDownload());   
 //			        intent.setData(content_url); 
-			        start();
+					toStart();
 				}
 				
 				@Override
 				public void onCancel(String msg) {
 					// TODO Auto-generated method stub
-					start();
+					toStart();
 				}
 			});
 			dialog.setTitle("版本更新");
 			dialog.setMessage(updateInfo.getMsg().getDescription());
 			dialog.show();
 		}else{
-			start();
+			toStart();
 		}
+	}
+	
+	private void toStart(){
+		new Thread() {
+			public void run() {
+				try {
+					Thread.sleep(2000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				handler.sendEmptyMessage(1);
+			}
+		}.start();
 	}
 	
 	@Override

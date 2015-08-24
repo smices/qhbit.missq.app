@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/face_u_c"    
+    >
+    <RelativeLayout 
+        style="@style/parent_two"
+        android:layout_centerVertical="true"
+        android:padding="30dp"
+        >
+        <Button 
+            android:id="@+id/btn_u_one"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/t_one_selector"
+            />
+        <Button 
+            android:id="@+id/btn_u_two"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/t_two_selector"
+            android:layout_alignParentRight="true"
+            />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

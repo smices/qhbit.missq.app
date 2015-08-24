@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/face_t_c"    
+    >
+    <LinearLayout 
+        style="@style/parent_four"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        >
+        <Button 
+            android:id="@+id/btn_t_one"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/t_one_selector"
+            />
+        <Button 
+            android:id="@+id/btn_t_two"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/t_two_selector"
+            android:layout_marginTop="60dp"
+            />
+        
+        <Button 
+            android:id="@+id/btn_t_three"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/t_three_selector"
+            android:layout_marginTop="100dp"
+            />
+        
+    </LinearLayout>
+
+</RelativeLayout>

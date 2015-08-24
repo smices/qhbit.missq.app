@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </FrameLayout>
+    
+	<LinearLayout 
+        android:id="@+id/llPartTab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/common_white_shape"
+        android:layout_marginTop="20dp"
+        >
+        <TextView 
+            android:id="@+id/tvTpart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_common_size"
+            android:gravity="center"
+            android:textColor="@color/black_3"
+            android:text="T部"
+            android:padding="5dp"
+            />
+        <TextView 
+            android:id="@+id/tvUpart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_common_size"
+            android:gravity="center"
+            android:textColor="@color/black_3"
+            android:text="U部"
+            android:padding="5dp"
+            />
+        <TextView 
+            android:id="@+id/tvJpart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_common_size"
+            android:gravity="center"
+            android:textColor="@color/black_3"
+            android:text="颈部"
+            android:padding="5dp"
+            android:visibility="gone"
+            />
+        <TextView 
+            android:id="@+id/tvHpart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_common_size"
+            android:gravity="center"
+            android:textColor="@color/black_3"
+            android:text="手部"
+            android:padding="5dp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    
+    
+</RelativeLayout>

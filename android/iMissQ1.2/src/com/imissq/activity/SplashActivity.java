@@ -1,6 +1,7 @@
 package com.imissq.activity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 
 import com.ambytw.android.shell.sample.global._S;
+import com.google.gson.Gson;
 import com.imissq.R;
 import com.imissq.base.BaseApplication;
 import com.imissq.config.Commons;
@@ -89,11 +91,11 @@ public class SplashActivity extends BaseActivity {
 						// TODO Auto-generated method stub
 						String result = arg0.result;
 						Log.d(Constants.TAG,"update result:"+result);
-						toStart();
-//						Gson gson = new Gson();
-//						UpdateBean updateInfo = new UpdateBean();
-//						updateInfo = gson.fromJson(result, UpdateBean.class);
-//						dealUpdateResult(updateInfo);
+//						toStart();
+						Gson gson = new Gson();
+						UpdateBean updateInfo = new UpdateBean();
+						updateInfo = gson.fromJson(result, UpdateBean.class);
+						dealUpdateResult(updateInfo);
 					}
 
 				});
@@ -111,10 +113,10 @@ public class SplashActivity extends BaseActivity {
 				@Override
 				public void onConfirm(String msg) {
 					// TODO Auto-generated method stub
-//					Intent intent = new Intent();
-//					intent.setAction("android.intent.action.VIEW");    
-//			        Uri content_url = Uri.parse(updateInfo.getMsg().getDownload());   
-//			        intent.setData(content_url); 
+					Intent intent = new Intent();
+					intent.setAction("android.intent.action.VIEW");    
+			        Uri content_url = Uri.parse(updateInfo.getMsg().getDownload());   
+			        intent.setData(content_url); 
 					toStart();
 				}
 				

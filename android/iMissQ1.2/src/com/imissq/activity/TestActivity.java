@@ -114,8 +114,16 @@ public class TestActivity extends BaseActivity implements OnClickListener{
 		Bundle b = new Bundle();
 		MisqDataBean data = new MisqDataBean();
 		data.setAge(water[0]);
-		data.setOil(water[1]);
-		data.setBase(water[2]);
+		
+		//hacked
+		//因jackey返回油水值相反，再没有libmissqtunnel.jar文件说明得情况下，先互换oil and base的值
+		//Eric 2015年08月26日11:09:53
+		data.setOil(water[2]);
+		data.setBase(water[1]);
+		
+		
+//		data.setOil(water[1]);
+//		data.setBase(water[2]);
 		data.setBaseWeight(base);
 		b.putSerializable("key", data);
 		intent.putExtras(b);

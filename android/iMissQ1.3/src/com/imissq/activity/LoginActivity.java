@@ -39,8 +39,8 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
     private void init() {
         // test data
-        et_name.setText("13751015906");
-        et_password.setText("abc123");
+        //et_name.setText("13751015906");
+        //et_password.setText("abc123");
 
         btn_login.setOnClickListener(this);
         btn_register.setOnClickListener(this);

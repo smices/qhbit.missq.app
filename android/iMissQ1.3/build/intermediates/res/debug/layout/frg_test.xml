@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        style="@style/parent_one"
+        android:scrollbars="none">
+
+        <LinearLayout
+            style="@style/parent_two"
+            android:orientation="vertical">
+
+            <RelativeLayout style="@style/parent_two">
+
+                <ImageView
+                    android:id="@+id/ivWeatherBg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/weather_bg"
+                    android:scaleType="fitXY" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:padding="@dimen/common_padding">
+
+                    <TextView
+                        android:id="@+id/tvWenDu"
+                        style="@style/parent_four"
+                        android:text="23 ℃"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCity"
+                        style="@style/parent_four"
+                        android:layout_alignLeft="@id/tvWenDu"
+                        android:layout_below="@id/tvWenDu"
+                        android:text="深圳"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/ivHelp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/help_selector" />
+
+                    <RelativeLayout
+                        style="@style/parent_four"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+                            android:id="@+id/ivTest"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/test_bg" />
+
+                        <TextView
+                            android:id="@+id/tvTest"
+                            style="@style/parent_four"
+                            android:layout_centerInParent="true"
+                            android:text="开始测试"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_common_size"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tvWind"
+                        style="@style/parent_four"
+                        android:layout_alignLeft="@id/tvWenDu"
+                        android:layout_alignParentBottom="true"
+                        android:text="多云 南风"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_common_size" />
+
+                    <TextView
+                        android:id="@+id/tvHighstWenDu"
+                        style="@style/parent_four"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:text="最高 28"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_common_size" />
+
+                    <TextView
+                        android:id="@+id/tvWater"
+                        style="@style/parent_four"
+                        android:layout_above="@id/tvHighstWenDu"
+                        android:layout_alignRight="@id/tvHighstWenDu"
+                        android:text="湿度 49"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_common_size" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                style="@style/parent_two"
+                android:orientation="vertical"
+                android:padding="@dimen/common_padding">
+
+                <!-- 今日测试 -->
+
+                <TextView
+                    android:id="@+id/tvTodayDesDes"
+                    style="@style/parent_four"
+                    android:layout_marginLeft="10dp"
+                    android:text="今日检测报告"
+                    android:textSize="@dimen/text_common_title_size" />
+
+                <RelativeLayout
+                    android:id="@+id/rlTodayTest"
+                    style="@style/parent_two"
+                    android:padding="@dimen/common_padding">
+
+                    <TextView
+                        android:id="@+id/tvTodayDes"
+                        style="@style/parent_four"
+                        android:layout_centerHorizontal="true"
+                        android:text="今日还未进行检测"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_common_size" />
+
+                    <TextView
+                        android:id="@+id/tvTodayInfo"
+                        style="@style/parent_four"
+                        android:layout_below="@id/tvTodayDes"
+                        android:layout_centerHorizontal="true"
+                        android:text="今日天气比较干燥,建议对肌肤进行补水."
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/text_common_size" />
+                </RelativeLayout>
+
+                <!-- 历史测试数据 -->
+
+                <TextView
+                    android:id="@+id/tvHistoryDes"
+                    style="@style/parent_four"
+                    android:layout_marginLeft="10dp"
+                    android:text="历史检测报告"
+                    android:textSize="@dimen/text_common_title_size"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:id="@+id/llHistoryInfo"
+                    style="@style/parent_two"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rlTPart"
+                        style="@style/commonUnitRlStyle">
+
+                        <TextView
+                            android:id="@+id/tvTPartDes"
+                            style="@style/parent_four"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/text_content_size"
+                            android:text="T部" />
+
+                        <TextView
+                            android:id="@+id/tvTPartInfo"
+                            style="@style/parent_four"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@id/tvTPartDes"
+                            android:textColor="@color/bluegreen"
+                            android:textSize="@dimen/text_content_size"
+                            android:text="历史数据(请保持)" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlTPartBtn"
+                            style="@style/parent_four"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true">
+
+                            <TextView
+                                android:id="@+id/tvTPartTest"
+                                style="@style/parent_four"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/white"
+                                android:background="@color/bluegreen"
+                                android:textSize="@dimen/text_content_size"
+                                android:text="测试"
+                                android:padding="@dimen/common_padding"
+                                android:layout_alignParentRight="true" />
+
+                            <ImageView
+                                android:id="@+id/ivTWarning"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <View style="@style/horizontalLine" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlUPart"
+                        style="@style/commonUnitRlStyle">
+
+                        <TextView
+                            android:id="@+id/tvUPartDes"
+                            style="@style/parent_four"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/text_content_size"
+                            android:text="U部" />
+
+                        <TextView
+                            android:id="@+id/tvUPartInfo"
+                            style="@style/parent_four"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@id/tvUPartDes"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/text_content_size"
+                            android:text="历史数据(危险)" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlUPartBtn"
+                            style="@style/parent_four"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true">
+
+                            <TextView
+                                android:id="@+id/tvUPartTest"
+                                style="@style/parent_four"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/white"
+                                android:background="@color/orange"
+                                android:textSize="@dimen/text_content_size"
+                                android:text="测试"
+                                android:padding="@dimen/common_padding"
+                                android:layout_alignParentRight="true" />
+
+                            <ImageView
+                                android:id="@+id/ivUWarning"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <View style="@style/horizontalLine" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlHPart"
+                        style="@style/commonUnitRlStyle">
+
+                        <TextView
+                            android:id="@+id/tvHPartDes"
+                            style="@style/parent_four"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/text_content_size"
+                            android:text="H部" />
+
+                        <TextView
+                            android:id="@+id/tvHPartInfo"
+                            style="@style/parent_four"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@id/tvHPartDes"
+                            android:textColor="@color/orange"
+                            android:textSize="@dimen/text_content_size"
+                            android:text="历史数据(报警)" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlHPartBtn"
+                            style="@style/parent_four"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true">
+
+                            <TextView
+                                android:id="@+id/tvHPartTest"
+                                style="@style/parent_four"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/white"
+                                android:background="@color/orange"
+                                android:textSize="@dimen/text_content_size"
+                                android:text="测试"
+                                android:padding="@dimen/common_padding"
+                                android:layout_alignParentRight="true" />
+
+                            <ImageView
+                                android:id="@+id/ivUWarning"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <View style="@style/horizontalLine" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlFPart"
+                        style="@style/commonUnitRlStyle">
+
+                        <TextView
+                            android:id="@+id/tvFPartDes"
+                            style="@style/parent_four"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/text_content_size"
+                            android:text="F部" />
+
+                        <TextView
+                            android:id="@+id/tvFPartInfo"
+                            style="@style/parent_four"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@id/tvFPartDes"
+                            android:textColor="@color/orange"
+                            android:textSize="@dimen/text_content_size"
+                            android:text="历史数据(报警)" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlFPartBtn"
+                            style="@style/parent_four"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true">
+
+                            <TextView
+                                android:id="@+id/tvFPartTest"
+                                style="@style/parent_four"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/white"
+                                android:background="@color/orange"
+                                android:textSize="@dimen/text_content_size"
+                                android:text="测试"
+                                android:padding="@dimen/common_padding"
+                                android:layout_alignParentRight="true" />
+
+                            <ImageView
+                                android:id="@+id/ivFWarning"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/MRA/Desktop/iMissQ1.2/res/layout/frg_test.xml -->

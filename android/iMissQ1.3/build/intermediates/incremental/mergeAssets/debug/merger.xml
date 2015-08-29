@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/MRA/Desktop/iMissQ1.2/assets"><file name="icomoon.ttf" path="/Users/MRA/Desktop/iMissQ1.2/assets/icomoon.ttf"/><file name="iconfont.ttf" path="/Users/MRA/Desktop/iMissQ1.2/assets/iconfont.ttf"/></source></dataSet><dataSet config="debug"><source path="/Users/MRA/Desktop/iMissQ1.2/build-types/debug/assets"/></dataSet></merger>

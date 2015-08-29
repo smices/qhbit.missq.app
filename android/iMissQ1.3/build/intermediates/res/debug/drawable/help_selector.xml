@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/help_active" android:state_pressed="true" />
+    <item android:drawable="@drawable/help_active" android:state_selected="true" />
+    <item android:drawable="@drawable/help_active" android:state_checked="true" />
+    <item android:drawable="@drawable/help_noraml" />
+</selector><!-- From: file:/Users/MRA/Desktop/iMissQ1.2/res/drawable/help_selector.xml -->

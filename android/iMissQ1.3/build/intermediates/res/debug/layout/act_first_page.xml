@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/g_banner"
+        style="@style/parent_one" />
+
+    <com.imissq.views.PageIndicatorView
+        android:id="@+id/pagePoint"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp" />
+
+</RelativeLayout><!-- From: file:/Users/MRA/Desktop/iMissQ1.2/res/layout/act_first_page.xml -->

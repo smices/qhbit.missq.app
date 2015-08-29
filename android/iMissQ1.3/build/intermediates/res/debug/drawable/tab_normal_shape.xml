@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="0.2dp"
+        android:color="#D9D9D9" />
+
+    <solid android:color="@color/transparent" />
+
+</shape><!-- From: file:/Users/MRA/Desktop/iMissQ1.2/res/drawable/tab_normal_shape.xml -->

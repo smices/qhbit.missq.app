@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="0a2223e5-6c25-4343-9aa4-e3b2c3d3c9f2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/1.12" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppMaterial.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppMaterial.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppSettings$BooleanPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppSettings$BooleanPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppSettings$CommonPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppSettings$CommonPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppSettings$EnumIntPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppSettings$EnumIntPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppSettings$FloatPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppSettings$FloatPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppSettings$IntPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppSettings$IntPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppSettings$LongPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppSettings$LongPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppSettings$StringPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppSettings$StringPreference.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/AppSettings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/AppSettings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/BaseActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/BaseActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/BaseApplication.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/BaseApplication.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/BaseBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/BaseBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/BaseFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/BaseFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/CommonDialog$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/CommonDialog$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/CommonDialog$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/CommonDialog$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/CommonDialog$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/CommonDialog$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/CommonDialog$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/CommonDialog$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/CommonDialog$OnFinishInterface.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/CommonDialog$OnFinishInterface.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/CommonDialog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/CommonDialog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/CommonLoadDialog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/CommonLoadDialog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/CommonSettings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/CommonSettings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/config/Commons$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/config/Commons$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/config/Commons.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/config/Commons.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/config/Constants.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/config/Constants.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/utils/DeviceConfiger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/utils/DeviceConfiger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/DividerDrawable$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/DividerDrawable$DividerOrientation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/DividerDrawable$DividerOrientation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/DividerDrawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/DividerDrawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/FirstPageActivity$MyAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/FirstPageActivity$MyAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/FirstPageActivity$MyAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/FirstPageActivity$MyAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/FirstPageActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/FirstPageActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/HelpActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/HelpActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/HelpActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/HelpActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/HomeActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/HomeActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/font/IcomoonIcon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/font/IcomoonIcon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/font/Icon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/font/Icon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/font/IconicFontDrawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/font/IconicFontDrawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/font/IconifyUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/font/IconifyUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/LoginActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/LoginActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/LoginActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/LoginActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/LoginBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/LoginBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/LoginCallBack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/LoginCallBack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/LoginInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/LoginInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/utils/MaterialUtils$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/utils/MaterialUtils$Location.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/utils/MaterialUtils$Location.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/utils/MaterialUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/utils/MaterialUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/MeFragment$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/MeFragment$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/MeFragment$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/MeFragment$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/MeFragment$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/MeFragment$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/MeFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/MeFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/MisqDataBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/MisqDataBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/MisqService$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/MisqService$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/MisqService$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/MisqService$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/MisqService$MissQCallBack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/MisqService$MissQCallBack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/MisqService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/MisqService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/MyService$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/MyService$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/MyService$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/MyService$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/MyService$MissQCallBack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/MyService$MissQCallBack.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base/MyService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base/MyService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/NavigationBar$IProvideNavigationBar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/NavigationBar$IProvideNavigationBar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/NavigationBar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/NavigationBar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/NewTestActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/NewTestActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/PageIndicatorView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/PageIndicatorView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/http/PostMap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/http/PostMap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/ProductFragment$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/ProductFragment$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/ProductFragment$myWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/ProductFragment$myWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/ProductFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/ProductFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$color.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$color.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$dimen.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$dimen.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$menu.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$menu.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R$style.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R$style.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/controller/RadioTabManager$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/controller/RadioTabManager$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/controller/RadioTabManager$BuildViewFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/controller/RadioTabManager$BuildViewFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/controller/RadioTabManager$TabChangeListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/controller/RadioTabManager$TabChangeListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/controller/RadioTabManager$TabInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/controller/RadioTabManager$TabInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/controller/RadioTabManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/controller/RadioTabManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/RecordActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/RecordActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/RecordActivity$myWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/RecordActivity$myWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/RecordActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/RecordActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/SplashActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/SplashActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/SplashActivity$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/SplashActivity$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/SplashActivity$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/SplashActivity$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/SplashActivity$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/SplashActivity$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/SplashActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/SplashActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/TPartTestFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/TPartTestFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views/TagView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views/TagView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/TestActivity$Part.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/TestActivity$Part.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/TestActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/TestActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/TestFragment$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/TestFragment$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/TestFragment$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/TestFragment$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/TestFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/TestFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/utils/TestResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/utils/TestResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/TestResultActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/TestResultActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/TopicFragment$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/TopicFragment$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/TopicFragment$myWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/TopicFragment$myWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/TopicFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/TopicFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/font/TypefaceManager$IconicTypeface.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/font/TypefaceManager$IconicTypeface.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/font/TypefaceManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/font/TypefaceManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment/UPartTestFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment/UPartTestFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/UpdateBean$Download.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/UpdateBean$Download.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/UpdateBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/UpdateBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/http/Urls.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/http/Urls.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/UserInfo$Base.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/UserInfo$Base.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/UserInfo$Msg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/UserInfo$Msg.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/UserInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/UserInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/UserTestBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/UserTestBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/WeatherBean$Index.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/WeatherBean$Index.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/WeatherBean$WeatherData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/WeatherBean$WeatherData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model/WeatherBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model/WeatherBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/ambytw/android/shell/sample/global/_R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ambytw/android/shell/sample/global/_R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/ambytw/android/shell/sample/global/_S.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ambytw/android/shell/sample/global/_S.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/aidl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/aidl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/ambytw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ambytw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ambytw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-3b7390f7b5e814c2bff91a9ad3569930.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android-support-v4-6118cbadd7e6214fc3fc6c8124ed7c54527e4eb6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-db34e4cfb6d1bc110b69da2e80be8963.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/android-support-v4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/ambytw/android" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ambytw/android" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ambytw/android" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/base" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/btn_enter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/btn_enter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/btn_enter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_enter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/circle_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/circle_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/circle_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/circle_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/compileDebugJava" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/controller" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/controller" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/controller" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/res/rs/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/aidl/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/rs/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dependency-cache/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/aidl/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/ndk/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/rs/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/tmp/dex/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dependency-cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/aidl/debug/dependency.store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/tmp/dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/dialog_btn_left_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/dialog_btn_left_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/dialog_btn_left_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dialog_btn_left_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/dialog_btn_left_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/dialog_btn_left_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/dialog_btn_left_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dialog_btn_left_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/dialog_btn_right_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/dialog_btn_right_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/dialog_btn_right_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dialog_btn_right_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/dialog_btn_right_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/dialog_btn_right_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/dialog_btn_right_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dialog_btn_right_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-mdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-mdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-xhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-xhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-xxhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-xxhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/face_t_c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/face_t_c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/face_u_c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/face_u_c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/font" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/font" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/font" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/activity/fragment" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/activity/fragment" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/fragment" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/res/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/ambytw/android/shell/sample/global" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ambytw/android/shell/sample/global" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ambytw/android/shell/sample/global" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs/gson-2.1-3341995802bf3ad684df95f99de5b64a.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs/gson-2.1-c4610b8477fe62d097aef7b0ab8a8f29.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/gson-2.1-dc19c889846c68addae78adc0f5908809429744f.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gson-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/help_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/help_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/help_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/help_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/help_noraml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/help_noraml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/help_noraml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/help_noraml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/http" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/http" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/http" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/apk/iMissQ1.2-debug-unaligned.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/apk/iMissQ1.2-debug.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ic_launcher-web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-mdpi-v4/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xhdpi-v4/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-xxhdpi-v4/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/icon_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/icon_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/icon_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/imissq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/imissq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/imissq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/ndk/debug/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/rs/debug/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs/libmissqtunnel-25904dbaed6ccee64bf72a06d673f485.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/libmissqtunnel-c6472aab8a98b901f67353c23f0f192110403415.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs/libmissqtunnel-defbfce49cfb59a32efa3be6e4a40621.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/libmissqtunnel.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/loading_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/loading_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/loading_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/loading_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/login_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/login_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/login_btn_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/login_btn_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/login_btn_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/login_btn_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/login_btn_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/login_btn_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/login_btn_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/login_btn_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/main_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/main_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/main_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/main_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/manifests" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/menu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/mssq_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/mssq_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/mssq_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/mssq_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/ndk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/ndk/debug/obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/rs/debug/obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/page_indicator_focused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/page_indicator_focused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/page_indicator_focused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/page_indicator_focused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/page_indicator_unfocused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/page_indicator_unfocused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/page_indicator_unfocused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/page_indicator_unfocused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/person_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/person_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/person_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/person_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/person_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/person_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/person_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/person_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/progress_bar_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/progress_bar_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/progress_bar_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/progress_bar_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/resources.ap_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/result_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/result_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/result_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/result_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/res/rs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/rs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/rs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/ambytw/android/shell/sample" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ambytw/android/shell/sample" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ambytw/android/shell/sample" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/scanner_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/scanner_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/scanner_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/scanner_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/scanner_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/scanner_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/scanner_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/scanner_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/ambytw/android/shell" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ambytw/android/shell" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ambytw/android/shell" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signture_key.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/skincare_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/skincare_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/skincare_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/skincare_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/skincare_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/skincare_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/skincare_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/skincare_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/symbols" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/t1_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/t1_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/t1_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/t1_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/t1_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/t1_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/t1_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/t1_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/t2_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/t2_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/t2_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/t2_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/t2_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/t2_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/t2_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/t2_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/t3_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/t3_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/t3_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/t3_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/t3_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/t3_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/t3_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/t3_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/tab_me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/tab_me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/tab_me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tab_me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/tab_product.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/tab_product.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/tab_product.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tab_product.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/tab_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/tab_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/tab_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tab_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/tab_topic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/tab_topic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/tab_topic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tab_topic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/test_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/test_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/test_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/test_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/test_hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/test_hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/test_hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/test_hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/test_hand_no_solid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/test_hand_no_solid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/test_hand_no_solid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/test_hand_no_solid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/topic_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/topic_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/topic_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/topic_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/topic_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/topic_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/topic_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/topic_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/u1_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/u1_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/u1_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/u1_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/u2_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/u2_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/u2_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/u2_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/u2_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/u2_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/u2_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/u2_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/u_test_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/res/drawable-hdpi/u_test_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/u_test_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/u_test_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/utils" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/utils" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/utils" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-sw600dp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values-sw720dp-land-v13" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-sw720dp-land" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values-v11" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v11" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values-v14" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v14" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/classes/com/imissq/views" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/imissq/views" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/views" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/w2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/w2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/w3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/w3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/w4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/w4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/w5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/w5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/w6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/w6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable-hdpi-v4/weather_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/weather_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs/xUtils-2.6.14-377f6728bfd21a27b9d65e6fc622329f.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dexedLibs/xUtils-2.6.14-806b7125060db75258ece275df58aff3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/xUtils-2.6.14-c731b58edb1e152d02df321323d2102ee33bfa99.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/xUtils-2.6.14.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/base/AppMaterial.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/base/AppSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/BaseActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/base/BaseApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model/BaseBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/fragment/BaseFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/imissq/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/imissq/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/views/CommonDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/views/CommonLoadDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/base/CommonSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/config/Commons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/config/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/utils/DeviceConfiger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/views/DividerDrawable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/FirstPageActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/HelpActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/HomeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/font/IcomoonIcon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/font/Icon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/font/IconicFontDrawable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/font/IconifyUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/LoginActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model/LoginBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/base/LoginCallBack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model/LoginInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/utils/MaterialUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/fragment/MeFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model/MisqDataBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/base/MisqService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/base/MyService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/views/NavigationBar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/NewTestActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/views/PageIndicatorView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/http/PostMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/fragment/ProductFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/imissq/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/imissq/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/controller/RadioTabManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/RecordActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/SplashActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/fragment/TPartTestFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/views/TagView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/TestActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/fragment/TestFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/utils/TestResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/TestResultActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/fragment/TopicFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/font/TypefaceManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/activity/fragment/UPartTestFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model/UpdateBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/http/Urls.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model/UserInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model/UserTestBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/imissq/model/WeatherBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ambytw/android/shell/sample/global/_R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ambytw/android/shell/sample/global/_S.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/act_first_page.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/act_first_page.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/act_help.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/act_help.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/act_home.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/act_home.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/act_login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/act_login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/act_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/act_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/act_new_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/act_new_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/act_splash.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/act_splash.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/act_test_result.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/act_test_result.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/bottom_corner_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bottom_corner_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/btn_enter_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_enter_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleansvn.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/common_white_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/common_white_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/corners_shape_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/corners_shape_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/dailog_loading_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dailog_loading_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/dialog_btn_left.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dialog_btn_left.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/dialog_btn_right.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dialog_btn_right.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-sw720dp-land/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/frg_me.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/frg_me.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/frg_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/frg_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/help_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/help_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iMissQ1.2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/tmp/dex/debug/inputList.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jarlist.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/layout_dailog_common.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_dailog_common.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/main_t_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_t_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/main_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/main_u_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_u_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest-merger-debug-report.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/apk/manifest-merger-debug-report.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/navigation_bar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/navigation_bar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/part_press_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/part_press_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/progress_bar_drawable.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/progress_bar_drawable.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v11/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v14/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/t_one_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/t_one_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/t_three_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/t_three_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/t_two_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/t_two_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/tab_normal_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_normal_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/tab_press_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_press_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/tab_radio_group.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/tab_radio_group.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/tab_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/tab_text.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/tab_text.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/tab_unit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/tab_unit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/tag_me_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tag_me_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/tag_product_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tag_product_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/tag_test_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tag_test_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/tag_topic_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tag_topic_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/u_one_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/u_one_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/drawable/u_two_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/u_two_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values-sw720dp-land-v13/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values-v11/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values-v14/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/view_page_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/view_page_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="iMissQ1.3.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="iMissQ1.3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imissq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imissq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imissq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imissq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imissq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ambytw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMissQ1.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_SELECTION_ERROR" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_SELECTION_ERROR" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\jacky\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\iws\projects\missq.app\trunk\android\iMissQ1.3" />
+          <option name="myCopyRoot" value="D:\iws\projects\missq.app\trunk\android\iMissQ1.3" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\iws\projects\missq.app\trunk\android\iMissQ1.3\.idea" />
+          <option name="myCopyRoot" value="D:\iws\projects\missq.app\trunk\android\iMissQ1.3\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\iws\projects\missq.app\trunk\android\iMissQ1.3" />
+          <option name="myCopyRoot" value="D:\iws\projects\missq.app\trunk\android\iMissQ1.3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a2223e5-6c25-4343-9aa4-e3b2c3d3c9f2" name="Default" comment="" />
+      <created>1440835032428</created>
+      <option name="number" value="Default" />
+      <updated>1440835032428</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/imissq/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imissq/activity/FirstPageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imissq/config/Commons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="65.36">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imissq/config/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imissq/controller/RadioTabManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imissq/font/Icon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.55737704">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

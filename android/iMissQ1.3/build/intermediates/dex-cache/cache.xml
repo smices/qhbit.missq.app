@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/MRA/Desktop/iMissQ1.2/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="/Users/MRA/Desktop/iMissQ1.2/build/intermediates/pre-dexed/debug/android-support-v4-6118cbadd7e6214fc3fc6c8124ed7c54527e4eb6.jar" />
+    </item>
+    <item
+        jar="/Users/MRA/Desktop/iMissQ1.2/libs/gson-2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd858833cacb4e6742f7698649fb874a360e230f">
+        <dex dex="/Users/MRA/Desktop/iMissQ1.2/build/intermediates/pre-dexed/debug/gson-2.1-dc19c889846c68addae78adc0f5908809429744f.jar" />
+    </item>
+    <item
+        jar="/Users/MRA/Desktop/iMissQ1.2/libs/libmissqtunnel.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f7c5dab26496403917af911d5e1e53c907db50a6">
+        <dex dex="/Users/MRA/Desktop/iMissQ1.2/build/intermediates/pre-dexed/debug/libmissqtunnel-c6472aab8a98b901f67353c23f0f192110403415.jar" />
+    </item>
+    <item
+        jar="/Users/MRA/Desktop/iMissQ1.2/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/MRA/Desktop/iMissQ1.2/build/intermediates/pre-dexed/debug/xUtils-2.6.14-c731b58edb1e152d02df321323d2102ee33bfa99.jar" />
+    </item>
+
+</items>

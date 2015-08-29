@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        style="@style/parent_one"
+        android:orientation="vertical"
+        android:layout_weight="1"></LinearLayout>
+
+    <include
+        android:id="@+id/radio_group"
+        layout="@layout/tab_radio_group" />
+
+</LinearLayout><!-- From: file:/Users/MRA/Desktop/iMissQ1.2/res/layout/act_main.xml -->

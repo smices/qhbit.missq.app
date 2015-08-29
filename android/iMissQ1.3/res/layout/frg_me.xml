@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/navigation_bar" />
+
+    <ScrollView
+        style="@style/parent_one"
+        android:scrollbars="none">
+
+        <LinearLayout
+            style="@style/parent_two"
+            android:orientation="vertical"
+            android:padding="@dimen/common_padding">
+
+            <RelativeLayout
+                android:id="@+id/rl_me"
+                style="@style/commonUnitRlStyle">
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    style="@style/commonTextInRlUnitStyle"
+                    android:text="用户名" />
+
+                <ImageView style="@style/commonRightIconStyle" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_my_friends"
+                style="@style/commonUnitRlStyle"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvMyFriends"
+                    style="@style/commonTextInRlUnitStyle"
+                    android:text="我的圈子" />
+
+                <ImageView style="@style/commonRightIconStyle" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/llMeMainInfo"
+                style="@style/parent_two"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rlProductRegister"
+                    style="@style/commonUnitRlStyle">
+
+                    <TextView
+                        android:id="@+id/tvProductRegister"
+                        style="@style/commonTextInRlUnitStyle"
+                        android:text="产品注册" />
+
+                    <ImageView style="@style/commonRightIconStyle" />
+                </RelativeLayout>
+
+                <View style="@style/horizontalLine" />
+
+                <RelativeLayout
+                    android:id="@+id/rlSinsor"
+                    style="@style/commonUnitRlStyle">
+
+                    <TextView
+                        android:id="@+id/tvSinsor"
+                        style="@style/commonTextInRlUnitStyle"
+                        android:text="灵敏度调整" />
+
+                    <ImageView style="@style/commonRightIconStyle" />
+                </RelativeLayout>
+
+                <View style="@style/horizontalLine" />
+
+                <RelativeLayout
+                    android:id="@+id/rlFeedBack"
+                    style="@style/commonUnitRlStyle">
+
+                    <TextView
+                        android:id="@+id/tvFeedBack"
+                        style="@style/commonTextInRlUnitStyle"
+                        android:text="意见反馈" />
+
+                    <ImageView style="@style/commonRightIconStyle" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_update"
+                style="@style/commonUnitRlStyle"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvUpdate"
+                    style="@style/commonTextInRlUnitStyle"
+                    android:text="版本升级" />
+
+                <ImageView style="@style/commonRightIconStyle" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_about"
+                style="@style/commonUnitRlStyle"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvAbout"
+                    style="@style/commonTextInRlUnitStyle"
+                    android:text="关于MissQ" />
+
+                <ImageView style="@style/commonRightIconStyle" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

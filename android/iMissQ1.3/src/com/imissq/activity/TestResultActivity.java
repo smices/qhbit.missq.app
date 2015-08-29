@@ -56,7 +56,7 @@ public class TestResultActivity extends BaseActivity implements OnClickListener 
         tvWater.setText("肌肤含水量： " + data.getBase() + "");
 
         //hacked：弹性这块不知道具体是哪个数值，无法绑定，先用age字段
-        tvQ.setText("肌膚活化度： " + data.getAge() + "");
+        tvQ.setText("肌肤嫩滑度： " + data.getAge() + "");
 
         tvTotal.setText(data.getOil() + data.getAge() + "");
         btnAgain.setOnClickListener(this);    }

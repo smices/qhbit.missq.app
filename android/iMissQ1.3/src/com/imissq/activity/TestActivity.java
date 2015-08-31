@@ -59,10 +59,12 @@ public class TestActivity extends BaseActivity implements OnClickListener {
         tvJpart.setBackgroundColor(getResources().getColor(R.color.transparent));
         tvHpart.setBackgroundColor(getResources().getColor(R.color.transparent));
 
+/*
         ivTpart.setImageResource(R.drawable.test_hand_no_solid);
         ivUpart.setImageResource(R.drawable.test_hand_no_solid);
         ivJpart.setImageResource(R.drawable.test_hand_no_solid);
         ivHpart.setImageResource(R.drawable.test_hand_no_solid);
+
         if (currentPart == Part.tPart) {
             tvTpart.setBackgroundResource(R.drawable.part_press_shape);
             ivTpart.setImageResource(R.drawable.test_hand);
@@ -76,6 +78,7 @@ public class TestActivity extends BaseActivity implements OnClickListener {
             tvHpart.setBackgroundResource(R.drawable.part_press_shape);
             ivHpart.setImageResource(R.drawable.test_hand);
         }
+*/
         showLoadDialog();
         startService(new Intent(this, MyService.class));
     }

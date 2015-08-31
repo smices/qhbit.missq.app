@@ -292,12 +292,14 @@
                                 android:padding="@dimen/common_padding"
                                 android:layout_alignParentRight="true" />
 
+<!--
                             <ImageView
                                 android:id="@+id/ivUWarning"
                                 android:layout_width="10dp"
                                 android:layout_height="10dp"
                                 android:layout_alignParentRight="true"
                                 android:layout_alignParentTop="true" />
+-->
                         </RelativeLayout>
                     </RelativeLayout>
 

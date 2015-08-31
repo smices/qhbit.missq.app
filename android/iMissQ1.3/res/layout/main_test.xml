@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_test"
+    android:background="@drawable/face_t_c"
     android:orientation="vertical">
 
     <LinearLayout
@@ -64,7 +64,7 @@
         style="@style/parent_four"
         android:layout_marginLeft="110dp"
         android:layout_marginTop="250dp"
-        android:src="@drawable/test_hand" />
+        android:src="@drawable/t1_n" />
 
     <ImageView
         android:id="@+id/ivUpart"
@@ -72,20 +72,20 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="110dp"
         android:layout_marginTop="270dp"
-        android:src="@drawable/test_hand_no_solid" />
+        android:src="@drawable/t2_n" />
 
     <ImageView
         android:id="@+id/ivJpart"
         style="@style/parent_four"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="320dp"
-        android:src="@drawable/test_hand_no_solid" />
+        android:src="@drawable/t3_n" />
 
     <ImageView
         android:id="@+id/ivHpart"
         style="@style/parent_four"
         android:layout_marginLeft="120dp"
         android:layout_marginTop="400dp"
-        android:src="@drawable/test_hand" />
+        android:src="@drawable/scanner_normal" />
 
 </RelativeLayout>

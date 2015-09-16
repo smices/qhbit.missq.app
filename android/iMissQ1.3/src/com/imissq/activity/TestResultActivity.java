@@ -16,15 +16,19 @@ import com.lidroid.xutils.view.annotation.ViewInject;
 public class TestResultActivity extends BaseActivity implements OnClickListener {
 
     private MisqDataBean data;
+    private double skinCombinedAverage;
 
     @ViewInject(R.id.tvOil)
     TextView tvOil;
+
+    @ViewInject(R.id.tvElastic)
+    TextView tvElastic;
+
     @ViewInject(R.id.tvWater)
     TextView tvWater;
 
-    @ViewInject(R.id.tvQ)
-    TextView tvQ;
-
+    @ViewInject(R.id.tvSmooth)
+    TextView tvSmooth;
 
     @ViewInject(R.id.tvTotal)
     TextView tvTotal;
@@ -52,14 +56,30 @@ public class TestResultActivity extends BaseActivity implements OnClickListener 
             return;
         }
 
-        tvOil.setText("肌肤油值： " + data.getOil() + "");
-        tvWater.setText("肌肤含水量： " + data.getBase() + "");
-
+        tvOil.setText("肌肤油量值： " + data.getOil() + "");
+        tvSmooth.setText("肌肤嫩滑度： " + data.getSmooth() + "");
+        tvWater.setText("肌肤含水量： " + data.getWater() + "");
         //hacked：弹性这块不知道具体是哪个数值，无法绑定，先用age字段
-        tvQ.setText("肌肤嫩滑度： " + data.getAge() + "");
+        tvElastic.setText("肌肤弹性值：" + data.getElastic() + "");
 
-        tvTotal.setText(data.getOil() + data.getAge() + "");
-        btnAgain.setOnClickListener(this);    }
+        ///??????????????
+        //tvTotal.setText(data.getOil() + data.getAge() + "");
+
+        //计算综合值
+        java.text.DecimalFormat   df=new java.text.DecimalFormat("##.##");
+        skinCombinedAverage =
+                (
+                    Math.round(
+                        Math.round(data.getOil() / (65 - 20)) +
+                        Math.round(data.getWater() / (65-20)) +
+                        Math.round(data.getElastic() / (65-20))+
+                        Math.round(data.getSmooth() / (65-20))
+                ) / 4 ) * 100;
+
+        tvTotal.setText(df.format(skinCombinedAverage + ""));
+
+        btnAgain.setOnClickListener(this);
+    }
 
 
     @Override

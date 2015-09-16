@@ -140,10 +140,16 @@ public class MyService extends Service implements
         map.put("sensitivity", "1");
         map.put("body_part", "1");
         map.put("body_part_position", "1,2,3");
+// collect user parameters begin
+        map.put("water", b[0] + "");
         map.put("oil", b[1] + "");
-        map.put("age", b[0] + "");
-        map.put("skin_level", b[2] + "");
-        map.put("water", water + "");
+        map.put("elastic", b[2] + "");
+        map.put("age", b[3] + "");
+        map.put("smooth", b[4] + "");
+
+        map.put("skin_level", "");
+// collect user parameters end
+
         if (BaseApplication.getLoginInfo() == null) {
             return;
         }

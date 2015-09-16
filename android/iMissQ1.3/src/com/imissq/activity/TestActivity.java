@@ -121,13 +121,15 @@ public class TestActivity extends BaseActivity implements OnClickListener {
         //hacked
         //因jackey返回油水值相反，再没有libmissqtunnel.jar文件说明得情况下，先互换oil and base的值
         //Eric 2015年08月26日11:09:53
-        data.setOil(water[2]);
-        data.setBase(water[1]);
-
-
 //		data.setOil(water[1]);
 //		data.setBase(water[2]);
+// collection parameters begin
+        data.setOil(water[1]);
+        data.setElastic(water[2]);
+        data.setAge(water[3]);
         data.setBaseWeight(base);
+        data.setSmooth(water[4]);
+// collection parameters begin
         b.putSerializable("key", data);
         intent.putExtras(b);
         startActivity(intent);

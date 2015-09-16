@@ -98,10 +98,14 @@ public class UPartTestFragment extends BaseFragment implements
             Intent intent = new Intent(act, TestResultActivity.class);
             Bundle b = new Bundle();
             MisqDataBean data = new MisqDataBean();
-            data.setAge(water[0]);
+// collection parameters begin
+            data.setWater(water[0]);
             data.setOil(water[1]);
-            data.setBase(water[2]);
+            data.setElastic(water[2]);
             data.setBaseWeight(base);
+            data.setAge(water[3]);
+            data.setSmooth(water[4]);
+// collection parameters end
             b.putSerializable("key", data);
             intent.putExtras(b);
             startActivity(intent);

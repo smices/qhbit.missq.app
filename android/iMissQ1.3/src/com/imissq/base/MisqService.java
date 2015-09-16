@@ -67,21 +67,21 @@ public class MisqService implements IMissQLib.IMissQLibListener {
                 int b[] = mQLib.getSkinValue(18, 1, water);
                 mMeasurable = true;
 
-                Log.d(Constants.TAG, "connect success, b0:" + b[0] + ",b1:" + b[1] + ",b2:" + b[2]);
+                Log.d(Constants.TAG, "connect success, b0:" + b[0] + ",b1:" + b[1] + ",b2:" + b[2]+ ",b3:" + b[3]);
                 if (missqCallback != null) {
                     missqCallback.waterCallBack(b);
                     uploadTestData(b, water);
                     missqCallback.connectSuccess();
                 }
-            } else if ((msg.arg1 == IMissQLib.IMissQLibListener.UPDATE_FAILED)
-                    || (msg.arg1 == IMissQLib.IMissQLibListener.UPDATE_UNSUPPORTED)) {//连接失败
-                mMeasurable = true;
-                missqCallback.connectFailed();
-                connectError();
-            } else {//未连接测量仪
-                Log.d(Constants.TAG, "test connect failed,nothing");
-                mMeasurable = true;
-                missqCallback.connectFailed();
+        } else if ((msg.arg1 == IMissQLib.IMissQLibListener.UPDATE_FAILED)
+                || (msg.arg1 == IMissQLib.IMissQLibListener.UPDATE_UNSUPPORTED)) {//连接失败
+            mMeasurable = true;
+            missqCallback.connectFailed();
+            connectError();
+        } else {//未连接测量仪
+            Log.d(Constants.TAG, "test connect failed,nothing");
+            mMeasurable = true;
+            missqCallback.connectFailed();
                 connectError();
             }
         }
@@ -132,10 +132,14 @@ public class MisqService implements IMissQLib.IMissQLibListener {
         map.put("sensitivity", "1");
         map.put("body_part", "1");
         map.put("body_part_position", "1,2,3");
+// collection parameters begin
+        map.put("water", b[0] + "");
         map.put("oil", b[1] + "");
-        map.put("age", b[0] + "");
-        map.put("skin_level", b[2] + "");
-        map.put("water", water + "");
+        map.put("elastic", b[2] + "");
+        map.put("age", b[3] + "");
+        map.put("smooth",b[4] +"");
+        map.put("skin_level", water+"");
+// collection parameters end
         if (BaseApplication.getLoginInfo() == null) {
             return;
         }
